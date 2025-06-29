@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio do Código Secreto do Dragão</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🐉 Código Secreto do Dragão 🐉</h1>
+      <p class="description">Decifre a sequência mágica do dragão Algorim!</p>
+
+      <div class="input-group">
+        <label for="position">Posição na sequência:</label>
+        <input type="number" id="position" min="1" placeholder="Digite um número" class="input-field" />
+      </div>
+
+      <div class="button-group">
+        <button id="decipher" class="magic-button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          DECIFRAR
+        </button>
+
+        <button id="return" class="magic-button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          RETORNAR
+        </button>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="result-container">
+        <h2>Resultado:</h2>
+        <div id="result" class="result-content"></div>
+        <div id="calculation" class="calculation-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
